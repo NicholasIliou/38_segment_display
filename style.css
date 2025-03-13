@@ -1,0 +1,27 @@
+html{
+    background-color: black;
+    }
+
+svg {
+    fill: #000f00;
+    width: 100%;
+    max-width: 500px;
+}
+
+.active {
+    fill: #00FF00   !important;
+    filter: drop-shadow(0 0 8px #00FF00 ) !important;
+}
+
+#svg-container-wrapper {
+    display: flex !important; /* Align displays horizontally */
+    justify-content: center !important; /* Center all the displays in the wrapper */
+    flex-wrap: nowrap !important; /* Allow wrapping of elements if they go beyond the width */
+    gap: 10px !important; /* Add space between each display */
+    overflow: hidden !important; /* Hide anything that overflows from the container */
+    padding: 20px !important;
+}
+
+.svg-display-1 {
+    display:flex
+    }
